@@ -10,7 +10,7 @@ All scripts include:
 - Export to new Excel file
 
 ### Scripts Overview
-## Sales
+#### Sales
 - **sales_profit_adder.py**  
   Loads sales data, adds profit per item and total profits column, saves processed file.
   
@@ -20,6 +20,7 @@ All scripts include:
 - **sales_data_cleaner.py**  
   Sales data cleaning: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
 
+#### Scores
 - **scores_data_cleaner.py**  
   Basic score data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
@@ -29,12 +30,15 @@ All scripts include:
 - **score_subject_summary_report.py**  
   Score data cleaning: removes dupicates, fills missing scores with subject average, counts grades per subject, computes basic statistics, saves cleaned file and summary report.
 
+#### Stocks
 - **stock_category_flag_report.py**  
   Stock data cleaning: removes duplicates, removes invalid/negative stock or blank items, groups by category, adds low-stock flags (<10), saves cleaned file and report with totals.
-  
+
+#### Games
 - **character_role_merger.py**  
   Loads charcter data, merge column Role1 and Role2 into new column Roles to handle missing values, saves processed file.
-  
+
+#### Others
 - **Titanic_analysis.ipynb(UNUSABLE)**  
   Jupyter notebook exploring Titanic dataset (cleaning, grouping, basic stats with Pandas + NumPy).
 
