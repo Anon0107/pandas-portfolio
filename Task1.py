@@ -7,7 +7,7 @@ except FileNotFoundError:
   raise
 except Exception as e:
   print(f"File not found: {e}")
-  raise # Stop running if error occured
+  raise # Stop running if error occurred
 try:
   # Data cleaning
   df = df.drop_duplicates() # Remove duplicates
@@ -20,6 +20,6 @@ except KeyError as e:
   raise
 except Exception as e:
   print(f'Other error: {e}')
-  raise # Stop running if error occured
+  raise # Stop running if error occurred
 df.to_excel('cleaned_Task1.xlsx') # Export file
 print('File cleaned_Task1 created')
