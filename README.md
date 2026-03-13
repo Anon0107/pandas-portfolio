@@ -12,7 +12,7 @@ All scripts include:
 ### Scripts Overview
 
 - **data_cleaner1.py**  
-  Loads data and merges columns to handle duplicates or combine info.
+  Loads sales data, adds profit per item and total profits column
 
 - **data_cleaner2.py**  
   Adds new calculated columns (e.g., profit = sales - cost).
