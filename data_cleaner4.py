@@ -37,4 +37,4 @@ except Exception as e:
   print(f'Other error: {e}')
   raise # Stops if error
 summary.to_excel('grades_sample_summary.xlsx')
-print('Files cleaned_grades_sample.xlsx and grades_sample_summary.xlsx created.') # Saves cleaned and procssed files
+print('Files cleaned_grades_sample.xlsx and grades_sample_summary.xlsx created.') # Saves cleaned and processed files
