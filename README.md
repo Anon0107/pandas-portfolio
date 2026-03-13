@@ -11,17 +11,17 @@ All scripts include:
 
 ### Scripts Overview
 #### Sales
+- **sales_data_cleaner.py**  
+  Sales data cleaning: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
+  
 - **sales_profit_adder.py**  
   Loads sales data, adds profit per item and total profits column, saves processed file.
   
 - **sales_region_profit_summary.py**  
   Loads sales data, adds profit per item and total profits column, show total profits by region in console, removes product with no profits, saves cleaned file.
 
-- **sales_data_cleaner.py**  
-  Sales data cleaning: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
-
 #### Scores
-- **scores_data_cleaner.py**  
+- **score_data_cleaner.py**  
   Basic score data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
 - **score_stats_counter.py**  
