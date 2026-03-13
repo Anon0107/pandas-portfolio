@@ -11,28 +11,28 @@ All scripts include:
 
 ### Scripts Overview
 
-- **Sales_Cleaner1.py**  
+- **sales_profit_adder.py**  
   Loads sales data, adds profit per item and total profits column, saves processed file.
   
-- **Sales_Cleaner2.py**  
-  Loads sales data, adds profit per item and total profits column, show total profits by region, removes product with no profits, saves processed file.
+- **sales_region_profit_summary.py**  
+  Loads sales data, adds profit per item and total profits column, show total profits by region in console, removes product with no profits, saves cleaned file.
 
-- **Sales_Cleaner3.py**  
+- **sales_data_cleaner.py**  
   Sales data cleaning: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
 
-- **Score_Cleaner1.py**  
+- **scores_data_cleaner_.py**  
   Basic score data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
-- **Score_Cleaner2.py**  
+- **score_stats_counter.py**  
   Basic score data cleaning: removes duplicates, fills missing data.Computes basic statistics and grade counts for each subject, saves cleaned and processed files
 
-- **Score_Cleaner3.py**  
+- **score_subject_summary_report.py**  
   Score data cleaning: removes dupicates, fills missing scores with subject average, counts grades per subject, computes basic statistics, saves cleaned file and summary report.
 
-- **Stock_Cleaner1.py**  
+- **stock_category_flag_report.py**  
   Stock data cleaning: removes duplicates, removes invalid/negative stock or blank items, groups by category, adds low-stock flags (<10), saves cleaned file and report with totals.
   
-- **Character_Cleaner1.py**  
+- **character_role_merger.py**  
   Loads charcter data, merge column Role1 and Role2 into new column Roles to handle missing values, saves processed file.
   
 - **Titanic_analysis.ipynb(UNUSABLE)**  
