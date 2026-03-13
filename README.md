@@ -27,7 +27,7 @@ All scripts include:
   Computes summary statistics (mean, std, min, max) and saves report.
 
 - **Task1.py**  
-  Cleans sales data: removes duplicates, fills missing prices with average, adds profit column, saves cleaned file.
+  Cleans sales data: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
 
 - **Task2.py**  
   Cleans student grades: fills missing scores with subject average, counts A/B/C/D grades per subject, saves summary report.
