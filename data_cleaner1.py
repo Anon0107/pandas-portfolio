@@ -8,7 +8,7 @@ except FileNotFoundError:
     raise
 except Exception as e:
     print(f'File not found: {e}')
-    raise  # Stop running when error occured
+    raise  # Stop here if error
 
 try:
     # Add column Profit per Sale and Total Profit
@@ -25,7 +25,7 @@ except KeyError as e:
     raise
 except Exception as e:
     print(f'Other error: {e}')
-    raise # Stop running when error occured
+    raise # Stop here if error
 
 df.to_excel('Cleaned_sample_laptop_sales.xlsx', index=False) # Save cleaned file
 
