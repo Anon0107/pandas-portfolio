@@ -8,8 +8,8 @@ except FileNotFoundError:
     raise
 except Exception as e:
     print(f'File not found: {e}')
-    # Stop here if error
-# Simple change: merge role1 and role2
+    raise # Stop here if error
+# Merge role1 and role2 to handle missing values in role2
 try:
     df = df.fillna(False)
     def mergeroles(row):
@@ -27,7 +27,6 @@ except KeyError as e:
 except Exception as e:
     print(f'Other error: {e}')
 
-# Save new file
-df.to_excel('Bang Dream! Characters(cleaned).xlsx', index=False)
+df.to_excel('Bang Dream! Characters(cleaned).xlsx', index=False) # Save processed file
 
 print("Done! Check Bang Dream! Characters(cleaned).xlsx")
