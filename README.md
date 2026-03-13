@@ -10,7 +10,7 @@ All scripts include:
 - Export to new Excel file
 
 ### Scripts Overview
-
+## Sales
 - **sales_profit_adder.py**  
   Loads sales data, adds profit per item and total profits column, saves processed file.
   
@@ -20,7 +20,7 @@ All scripts include:
 - **sales_data_cleaner.py**  
   Sales data cleaning: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
 
-- **scores_data_cleaner_.py**  
+- **scores_data_cleaner.py**  
   Basic score data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
 - **score_stats_counter.py**  
