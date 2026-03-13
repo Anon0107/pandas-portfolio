@@ -15,10 +15,10 @@ All scripts include:
   Loads sales data, adds profit per item and total profits column, show total profits by region, removes product with no profits, saves processed file.
 
 - **data_cleaner2.py**  
-  Loads charcter data, merge column Role1 and Role2 into new column Roles to handle missing values, saves processed file
+  Loads charcter data, merge column Role1 and Role2 into new column Roles to handle missing values, saves processed file.
 
 - **data_cleaner3.py**  
-  Removes duplicate rows and fills missing numeric values with averages.
+  Basic data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
 - **data_cleaner4.py**  
   Computes summary statistics (mean, std, min, max) and saves report.
