@@ -12,7 +12,7 @@ All scripts include:
 ### Scripts Overview
 
 - **data_cleaner1.py**  
-  Loads sales data, adds profit per item and total profits column
+  Loads sales data, adds profit per item and total profits column, show total profits by region, removes product with no profits, saves processed file.
 
 - **data_cleaner2.py**  
   Adds new calculated columns (e.g., profit = sales - cost).
