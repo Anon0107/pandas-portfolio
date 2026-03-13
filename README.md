@@ -21,13 +21,13 @@ All scripts include:
   Basic data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
 - **data_cleaner4.py**  
-  Computes summary statistics (mean, std, min, max) and saves report.
+  Basic data cleaning: removes duplicates, fills missing data.Computes basic statistics and grade counts for each subject, saves cleaned and processed files
 
 - **Task1.py**  
   Cleans sales data: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
 
 - **Task2.py**  
-  Cleans student grades: removes dupicates, fills missing scores with subject average, counts A/B/C/D grades per subject, add basic statistics, saves cleaned file and summary report.
+  Cleans student grades: removes dupicates, fills missing scores with subject average, counts grades per subject, computes basic statistics, saves cleaned file and summary report.
 
 - **Task3.py**  
   Cleans inventory list: removes duplicates, removes invalid/negative stock or blank items, groups by category, adds low-stock flags (<10), saves cleaned file and report with totals.
