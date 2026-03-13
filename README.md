@@ -15,15 +15,12 @@ All scripts include:
   Loads sales data, adds profit per item and total profits column, show total profits by region, removes product with no profits, saves processed file.
 
 - **data_cleaner2.py**  
-  Adds new calculated columns (e.g., profit = sales - cost).
-
-- **data_cleaner3.py**  
   Extra basic cleaning steps built on top of previous cleaners (e.g., type conversion, trimming).
 
-- **data_cleaner4.py**  
+- **data_cleaner3.py**  
   Removes duplicate rows and fills missing numeric values with averages.
 
-- **data_cleaner5.py**  
+- **data_cleaner4.py**  
   Computes summary statistics (mean, std, min, max) and saves report.
 
 - **Task1.py**  
