@@ -42,7 +42,8 @@ All scripts include:
   Customer feedback cleaning: removes invalid/empty ratings, sort by date descending, adds column Satisfaction based on rating, group by prodcut to show summary of average rating, saves cleaned file and summary file
 
 - **employee_summary_merger**
-  Merge 2 employee files on EmployeeID, fill missing data in Hours column with average hours per department, add column Overtime based on hours (>40), created pivot table showing total hours and count of overtime per department, saves cleaned file and pivot table file
+  Merge 2 employee files on EmployeeID, fill missing data in Hours column with average hours per department, add column Overtime based on hours (>40), shows total hours and count of overtime per department, saves cleaned file and pivot table file
+  
 - **Titanic_analysis.ipynb(UNUSABLE)**  
   Jupyter notebook exploring Titanic dataset (cleaning, grouping, basic stats with Pandas + NumPy).
 
