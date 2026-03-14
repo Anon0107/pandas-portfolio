@@ -29,7 +29,7 @@ try:
                   df.loc[df.Overtime == 'Yes'].groupby('Department').Overtime.count()],axis = 'columns')
   # data cleaning for pivot table
   df = df.fillna(0).astype(int)
-  df.to_excel('employee_pivot_table.xlsx') # Saves pivot table
+  df.to_excel('employee_pivot_table.xlsx') # Saves summary
 except KeyError as e:
   print(f'Column not found: {e}')
   raise # stop if error
