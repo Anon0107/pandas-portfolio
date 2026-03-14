@@ -10,7 +10,7 @@ All scripts include:
 - Export to new Excel file
 
 ### Scripts Overview
-#### Sales
+
 - **sales_data_cleaner.py**  
   Sales data cleaning: removes duplicates, fills missing prices with average, adds revenue column, saves cleaned file.
   
@@ -20,7 +20,6 @@ All scripts include:
 - **sales_region_profit_summary.py**  
   Loads sales data, adds profit per item and total profits column, show total profits by region in console, removes product with no profits, saves cleaned file.
 
-#### Scores
 - **score_data_cleaner.py**  
   Basic score data cleaning: removes duplicates, fills missing data with mean, saves cleaned file
 
@@ -30,15 +29,20 @@ All scripts include:
 - **score_subject_summary_report.py**  
   Score data cleaning: removes dupicates, fills missing scores with subject average, counts grades per subject, computes basic statistics, saves cleaned file and summary report.
 
-#### Stocks
 - **stock_category_flag_report.py**  
   Stock data cleaning: removes duplicates, removes invalid/negative stock or blank items, groups by category, adds low-stock flags (<10), saves cleaned file and report with totals.
+  
+- **stock_value_displayer.py**
+  Stock data cleaning: removes duplicates, removes invalid/negative values from price and stocks, adds new column discount if stock low (<20), compute and plot total values per category in bar chart, saves cleaned file and bar chart png
 
-#### Games
 - **character_role_merger.py**  
   Loads charcter data, merge column Role1 and Role2 into new column Roles to handle missing values, saves processed file.
 
-#### Others
+- **customer_feedback_summary_cleaner**
+  Customer feedback cleaning: removes invalid/empty ratings, sort by date descending, adds column Satisfaction based on rating, group by prodcut to show summary of average rating, saves cleaned file and summary file
+
+- **employee_summary_merger**
+  Merge 2 employee files on EmployeeID, fill missing data in Hours column with average hours per department, add column Overtime based on hours (>40), created pivot table showing total hours and count of overtime per department, saves cleaned file and pivot table file
 - **Titanic_analysis.ipynb(UNUSABLE)**  
   Jupyter notebook exploring Titanic dataset (cleaning, grouping, basic stats with Pandas + NumPy).
 
